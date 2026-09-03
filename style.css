@@ -1,22 +1,21 @@
+#why article {
+  padding: 2rem;
+}
+
 #welcome {
   text-align: center;
   padding: 3rem 1rem;
 }
+
 .flex-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .flex-container article {
-  width: 30%;
-}
-#field-notes span,
-#field-notes strong,
-#field-notes a {
-  outline: 2px dashed darkorange;
+  width: 28%;
 }
 
-#field-notes div,
-#field-notes p {
-  outline: 2px solid seagreen;
-}
+
+
+
