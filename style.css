@@ -2,15 +2,6 @@
   text-align: center;
   padding: 3rem 1rem;
 }
-
-#welcome h1 {
-  text-shadow: 0px 2px 2px gray;
-}
-
-#why article {
-  padding: 2rem;
-}
-
 .flex-container {
   display: flex;
   justify-content: space-evenly;
@@ -18,6 +9,17 @@
 
 .flex-container article {
   width: 28%;
+}
+
+#field-notes span,
+#field-notes strong,
+#field-notes a {
+  outline: 2px dashed darkorange;
+}
+
+#field-notes div,
+#field-notes p {
+  outline: 2px solid seagreen;
 }
 
 #input:focus,
@@ -33,6 +35,14 @@ textarea:focus {
 #member-email:invalid {
 	border: 2px dashed darkorange;
 } 
+
+#welcome h1 {
+  text-shadow: 0px 2px 2px gray;
+}
+
+#why article {
+  padding: 2rem;
+}
 
 #welcome a:hover {
   background-color: seagreen;
